@@ -45,7 +45,7 @@ a:focus {
 }
 
 .btn.btn-custom:hover {
-    color: #20212B;
+    color: #990000;
     box-shadow: inset 0 0 0 30px #FDBE33;
 }
 
@@ -77,7 +77,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffffff;
+    background: #000000;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity .3s ease-out, visibility 0s linear .3s;
@@ -118,7 +118,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #FDBE33;
+    background: #000000;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -140,7 +140,7 @@ a:focus {
 }
 
 .back-to-top:hover i {
-    color: #FDBE33;
+    color: #ffffff;
 }
 
 
@@ -786,7 +786,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: rgba(0, 0, 0, .5);
+     background-image: linear-gradient(to bottom left, #000000, #fdbe33);
 }
 
 .donate .donate-content {
